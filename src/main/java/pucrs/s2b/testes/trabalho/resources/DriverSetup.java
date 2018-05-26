@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -19,21 +20,11 @@ public class DriverSetup {
 	}
 		
 	
-	public WebDriver getDriverConfigFirefox(String url) {
+	public static WebDriver getDriverConfigFirefox(String url) {
 		WebDriver driver;
 		WebDriverManager.firefoxdriver().setup();
 		driver = new FirefoxDriver();
 		driver.get(url);
 		return driver;	
-	}	
-	
-	public WebDriver getDriverConfigEdge(String url) {
-		WebDriver driver;
-		WebDriverManager.edgedriver().setup();
-		driver = new EdgeDriver();
-		driver.get(url);
-		return driver;		
-	}
-
-	
+	}		
 }
