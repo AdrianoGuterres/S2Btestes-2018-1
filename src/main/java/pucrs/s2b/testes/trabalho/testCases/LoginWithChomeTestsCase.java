@@ -27,7 +27,7 @@ public class LoginWithChomeTestsCase {
 	
 	@Test
 	public void main() {
-		this.tasks.preencherLogin("11111581", "98292112");
+		this.tasks.preencherLogin("11111581", "9999999");
 		this.tasks.sendFormLogin();
 		boolean expected = true;
 		boolean actual = verificationPoint.loginResult();

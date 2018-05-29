@@ -26,7 +26,7 @@ public class LoginWithFirefoxTestsCase {
 	
 	@Test
 	public void main() {
-		this.tasks.preencherLogin("11111581", "98292112");
+		this.tasks.preencherLogin("11111581", "999999");
 		this.tasks.sendFormLogin();
 		boolean expected = true;
 		boolean actual = verificationPoint.loginResult();		
