@@ -21,8 +21,7 @@ public class LoginWithChomeTestsCase {
 	public void setup() {
 		this.driver = DriverSetup.getDriverConfigForChrome("https://moodle.pucrs.br/");				
 		this.verificationPoint =new LoginVerificationPoint(this.driver);
-		this.tasks = new LoginTasks(driver);
-		
+		this.tasks = new LoginTasks(driver);		
 	}
 	
 	@Test
