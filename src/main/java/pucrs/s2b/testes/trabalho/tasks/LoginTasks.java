@@ -2,7 +2,7 @@ package pucrs.s2b.testes.trabalho.tasks;
 
 import org.openqa.selenium.WebDriver;
 
-import pucrs.s2b.testes.trabalho.appObjects.LoginAppObject;
+import pucrs.s2b.testes.trabalho.appobjects.LoginAppObject;
 
 public class LoginTasks {
 	

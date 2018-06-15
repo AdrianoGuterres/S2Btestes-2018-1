@@ -1,4 +1,4 @@
-package pucrs.s2b.testes.trabalho.testCases;
+package pucrs.s2b.testes.trabalho.testcases;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 import pucrs.s2b.testes.trabalho.resources.DriverSetup;
 import pucrs.s2b.testes.trabalho.tasks.LoginTasks;
-import pucrs.s2b.testes.trabalho.verificationPoints.LoginVerificationPoint;
+import pucrs.s2b.testes.trabalho.verificationpoints.LoginVerificationPoint;
 
 public class LoginWithFirefoxTestsCase {
 	

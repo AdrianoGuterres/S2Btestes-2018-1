@@ -1,4 +1,4 @@
-package pucrs.s2b.testes.trabalho.appObjects;
+package pucrs.s2b.testes.trabalho.appobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

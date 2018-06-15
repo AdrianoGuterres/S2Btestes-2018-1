@@ -1,4 +1,4 @@
-package pucrs.s2b.testes.trabalho.verificationPoints;
+package pucrs.s2b.testes.trabalho.verificationpoints;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
